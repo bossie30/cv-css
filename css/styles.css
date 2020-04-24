@@ -1,0 +1,137 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+color: #66BFBF;
+font-size: 5.625rem;
+margin-top: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  color: silver;
+  border-top: 6px dotted;
+  width: 6%;
+  margin: 100px auto;
+}
+
+a {
+  margin: 10px 20px;
+  font-family: 'Montserat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.footer-text {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 10px 0;
+}
+
+.top-container {
+  background-color:#b7efcd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #f7f7f7;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right:300px;
+  top: 50px;
+}
+
+.img-programmer {
+  height: 250px;
+  width: 400px;
+  border-radius: 50%;
+  margin-top: 3%;
+}
+.footer-link {
+  margin-left: 10px;
+}
+.img-website {
+  width: 35%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+
+}
+.img-react {
+  width: 35%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.tag-programmer {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 130px auto 200px auto;
+  text-align: left;
+  line-height: 2
+}
+
+.myButton {
+  margin: 30px;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #4b8ba3 100%);
+	background-color:#33bdef;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #4b8ba3 5%, #33bdef 100%);
+	background-color:#4b8ba3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
